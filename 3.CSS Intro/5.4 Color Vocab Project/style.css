@@ -1,0 +1,27 @@
+#red{
+    color: red;
+}
+#blue{
+    color: blue;
+}
+#orange{
+    color: orange;
+}
+#green{
+    color: green;
+}
+#yellow{
+    color: yellow;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.color-title{
+    font-weight: normal;
+}
+h1{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

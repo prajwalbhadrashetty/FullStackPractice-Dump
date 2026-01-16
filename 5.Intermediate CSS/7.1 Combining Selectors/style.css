@@ -1,0 +1,17 @@
+/* Write your code here: */
+h1,h2{                                      /* combine one or more seletors with comma , we can also group diff id,class togther Ex(.class, #id, h1{})*/
+    color: blueviolet;
+}
+.box > p{                                   /* parent > child *remember* its a direct child next to partent (one level) */
+    color: firebrick;
+}
+.box li{                                    /* ancester decendent , no need to be immediate decendent as long as ancestor encloses it */
+    color: blue;
+}
+li.done{              /*no spaces*/         /* chaining= applying all the selectors which are true Ex(h1#id.class.class)*/
+    color: seagreen;
+}
+
+ul p.done{                                  /* ancestor decendent(chain) */
+    font-size: 0.5rem;
+}
